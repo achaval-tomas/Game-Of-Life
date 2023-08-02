@@ -1,4 +1,7 @@
 # Game-Of-Life
+
+Another one of my first few projects in C++, lots of improvements to be done.
+
 My version of Conway's well-known Game of Life made in C++ and SDL.
 
 Keybinds:
