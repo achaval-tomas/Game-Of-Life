@@ -7,6 +7,7 @@ My version of Conway's well-known Game of Life made in C++ and SDL.
 Play with
 ````
 g++ -o play -I include src/*.cpp \`sdl2-config --cflags --libs\` -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_ttf
+./play
 ````
 
 Keybinds:
