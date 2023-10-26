@@ -18,4 +18,4 @@ Left click to add living cells, right click to remove them. Space to start/pause
 
 https://github.com/achaval-tomas/Game-Of-Life/assets/134091945/513f4cde-1585-4f72-a573-585aaec7fa1d
 
-
+[Download and install SDL](https://www.libsdl.org/)
