@@ -4,13 +4,21 @@ Another one of my first few projects in C++, lots of improvements to be done.
 
 My version of Conway's well-known Game of Life made in C++ and SDL.
 
-Play with (Windows, mingw32)
+Play with (Windows)
 ````
 start bin/release/main
 ````
-Compile with
+Compile (on Windews, with mingw) with
 ````
 g++ -c src/*.cpp -std=c++14 -O3 -Wall -m64 -I include -I /bin/release && g++ *.o -o bin/release/main -s -L /bin/release -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
+````
+Play with (Linux)
+````
+./bin/release/mainLinux
+````
+Compile (on Linux) with
+````
+g++ -c src/*.cpp -std=c++14 -O3 -Wall -m64 -I include -I /bin/release && g++ *.o -o bin/release/mainLinux -s -L /bin/release -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 ````
 
 Keybinds:
